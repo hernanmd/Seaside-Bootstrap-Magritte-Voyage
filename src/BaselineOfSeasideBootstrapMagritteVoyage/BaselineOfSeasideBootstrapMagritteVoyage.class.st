@@ -46,6 +46,6 @@ BaselineOfSeasideBootstrapMagritteVoyage >> packagesForPharo: spec [
 		package: #'Seaside-Bootstrap-Magritte-Voyage' 
 		with: [
 			spec
-				requires: #('Bootstrap4' 'Seaside-Magritte-Voyage');
+				requires: #('Bootstrap4' 'SeasideMagritteVoyage');
 				repository: 'github://hernanmd/Seaside-Bootstrap-Magritte-Voyage' ]
 ]
