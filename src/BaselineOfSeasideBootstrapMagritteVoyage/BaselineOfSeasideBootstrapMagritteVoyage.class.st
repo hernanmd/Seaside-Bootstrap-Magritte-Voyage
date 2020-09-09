@@ -22,7 +22,9 @@ BaselineOfSeasideBootstrapMagritteVoyage >> baselineForBootstrap: spec [
 
 	spec
 		baseline: 'Bootstrap4' 
-		with: [ spec repository: 'github://astares/Seaside-Bootstrap4:master/src'  ]
+		with: [ spec 
+			loads: #('default');
+			repository: 'github://astares/Seaside-Bootstrap4:master/src'  ]
 ]
 
 { #category : #baselines }
