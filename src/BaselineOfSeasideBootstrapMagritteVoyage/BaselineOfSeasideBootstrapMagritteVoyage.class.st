@@ -36,7 +36,7 @@ BaselineOfSeasideBootstrapMagritteVoyage >> baselineForSeasideMagritteVoyage: sp
 		baseline: 'SeasideMagritteVoyage' 
 		with: [ spec 
 			loads: #('default');
-			repository: 'github://hernanmd/SeasideMagritteVoyage/src'  ]
+			repository: 'github://hernanmd/Seaside-Magritte-Voyage/src'  ]
 ]
 
 { #category : #baselines }
