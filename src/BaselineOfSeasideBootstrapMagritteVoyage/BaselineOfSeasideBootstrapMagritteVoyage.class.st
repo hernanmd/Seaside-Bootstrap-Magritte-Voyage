@@ -9,7 +9,9 @@ BaselineOfSeasideBootstrapMagritteVoyage >> baseline: spec [
 	<baseline>
 
 	spec for: #'common' do: [
-		self baselineForSeasideMagritteVoyage: spec ].
+		self 
+			baselineForBootstrap: spec;
+			baselineForSeasideMagritteVoyage: spec ].
 
 	spec for: #pharo do: [
 		self packagesForPharo: spec ].
