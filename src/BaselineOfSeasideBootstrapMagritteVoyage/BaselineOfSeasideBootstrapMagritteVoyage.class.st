@@ -23,7 +23,7 @@ BaselineOfSeasideBootstrapMagritteVoyage >> baseline: spec [
 BaselineOfSeasideBootstrapMagritteVoyage >> baselineForBootstrap: spec [
 
 	spec
-		baseline: 'Bootstrap4' 
+		baseline: 'Bootstrap5' 
 		with: [ 
 			spec 
 				loads: #('default');
